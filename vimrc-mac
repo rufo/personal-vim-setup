@@ -1,0 +1,27 @@
+set background=dark
+set ruler
+set autoindent
+set showcmd
+set gfn=Consolas\ 12
+colorscheme wombat
+
+set grepprg=ack
+set grepformat=%f:%l:%m
+
+set tabstop=2
+set smarttab
+set shiftwidth=2
+set autoindent
+set expandtab
+set backspace=start,indent
+
+set nohlsearch
+set incsearch
+syntax on
+set number
+
+let g:fuzzy_ignore = "*.log"
+let g:fuzzy_matching_limit = 70
+
+map <leader>t :FuzzyFinderTextMate<CR>
+map <leader>b :FuzzyFinderBuffer<CR>
